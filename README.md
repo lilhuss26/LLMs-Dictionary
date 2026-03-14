@@ -13,7 +13,7 @@
 - [**Families**](#families)  
 	- [Mistral](#mistral)  
 - [**Providers**](#providers)  
-	- [Open Router](#open-router)  
+	- [OpenRouter](#open-router)  
 	- [Groq](#groq)
 # The Big Three 
 ## Claude [link](https://claude.com/pricing#api)
@@ -42,8 +42,9 @@
 
 ---
 # Providers 
-## Open router
-
+## OpenRouter [link](https://openrouter.ai)
+**Note** : It's wide models coverage and big trial qouta, makes it the first option for exploration
+ 
 | Models variaty | Free trial | Used | Notes                                                         |
 | -------------- | ---------- | ---- | ------------------------------------------------------------- |
 | All Models     | Enough     | Yes  | Free trial is random, stops at the same day OR Last for weeks |

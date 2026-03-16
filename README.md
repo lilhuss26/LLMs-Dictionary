@@ -1,7 +1,7 @@
 # Header 
 
 **Last Updated** : 3/3/2026
-**Last Updater** : Hussam Elnemr
+**Last Updater** : [lilhuss26](https://github.com/lilhuss26)
 # Intro 
 **Purpose** : This file's goal Isn't collecting ALL models in one place, but quite the opposite, is kind of filtering. All mentioned models/providers will be latest OR actually used ones, that deserve mentioning. Making it a quick reference for any future projects.
 **To Mention** : [ArtificialAnalysis](https://artificialanalysis.ai), U can find more stats and comparison
@@ -12,9 +12,15 @@
 	- [OpenAI](#openai)  
 - [**Families**](#families)  
 	- [Mistral](#mistral)  
+	- [Inception](#Inception)
+	- [Z.ai](#Z.ai)
+	- [Qwen](#Qwen)
 - [**Providers**](#providers)  
 	- [OpenRouter](#open-router)  
 	- [Groq](#groq)
+# Legend
+- **Pricing** in any table is *1M token input cost*/*1M token output cost*
+- **Throughput** is tps (Tkens Per Second)
 # The Big Three 
 ## Claude [link](https://claude.com/pricing#api)
 **Note** : Claude provides some older versions, with the same pricing, Except **Haiku** , Significantly cheaper, but with very low performance on the benchmarks.
@@ -25,20 +31,26 @@
 | Sonnet 4.6 | Large  | 3/15    | No     |             |            |             |       |
 | Opus 4.6   | Super  | 5/25    | No     |             |            |             |       |
 
-## Gemini
-
 ## OpenAI
+| Name        | Cat   | Pricing | Tried? | ToolCalling | Throughput | Performance                         | Notes                                  |
+| ----------- | ----- | ------- | ------ | ----------- | ---------- | ----------------------------------- | -------------------------------------- |
+| Chat-GPT 4o | Large |         | Yes    | True        |            | Great, large prompt (deep analysis) |                                        |
+| Chat-GPT 5  | Large |         | Yes    |             |            | Good                                | Slower, and it's output feels too soft |
 
 ---
 # Families
 ## Mistral3 [Link](https://mistral.ai/pricing#api)
 
-| Name             | Cat    | Pricing | Tried? | ToolCalling | Throughput | Performance                 | Notes               |
-| ---------------- | ------ | ------- | ------ | ----------- | ---------- | --------------------------- | ------------------- |
-| Mistral3-largest | Meduim | 0.5/1.5 | Yes    | True        | 30         | Great, Agent stable         | SLOW                |
-| Mistral3-24b     | Small  |         | No     | True        |            |                             |                     |
-| Mistral3-14b     | Small  | 0.2/0.2 | Yes    | True        | 98         | Agent stable, large prompts | Small hullicantaion |
-## Qwen
+| Name             | Cat    | Pricing | Tried? | ToolCalling | Throughput | Performance                               | Notes               |
+| ---------------- | ------ | ------- | ------ | ----------- | ---------- | ----------------------------------------- | ------------------- |
+| Mistral3-largest | Meduim | 0.5/1.5 | Yes    | True        | 30         | Great, Agent stable                       | SLOW                |
+| Mistral3-24b     | Small  |         | No     | True        |            |                                           |                     |
+| Mistral3-14b     | Small  | 0.2/0.2 | Yes    | True        | 98         | Agent stable, large prompts (Re-writting) | Small hullicantaion |
+## Inception
+
+| Name     | Cat    | Pricing   | Tried? | ToolCalling | Throughput | Performance                        | Notes |
+| -------- | ------ | --------- | ------ | ----------- | ---------- | ---------------------------------- | ----- |
+| Mercury2 | Meduim | 0.25/0.75 | Yes    | True        | 332        | Great, Agent very smart and stable |       |
 
 ---
 # Providers 

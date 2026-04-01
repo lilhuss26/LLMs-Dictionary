@@ -11,7 +11,7 @@
 	- [Gemini](#gemini)  
 	- [OpenAI](#openai)  
 - [**Families**](#families)  
-	- [Mistral](#mistral)  
+	- [Mistral3](#Mistral3)  
 	- [Inception](#Inception)
 	- [Z.ai](#Z.ai)
 	- [Qwen](#Qwen)

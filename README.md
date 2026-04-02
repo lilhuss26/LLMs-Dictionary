@@ -1,10 +1,10 @@
 # Header 
 
-**Last Updated** : 1/4/2026
-**Last Updater** : [lilhuss26](https://github.com/lilhuss26)
+- **Last Updated** : 1/4/2026
+- **Last Updater** : [lilhuss26](https://github.com/lilhuss26)
 # Intro 
-**Purpose** : This file's goal Isn't collecting ALL models in one place, but quite the opposite, is kind of filtering. All mentioned models/providers will be latest OR actually used ones, that deserve mentioning. Making it a quick reference for any future projects.
-**To Mention** : [ArtificialAnalysis](https://artificialanalysis.ai), U can find more stats and comparison
+- **Purpose** : This file's goal Isn't collecting ALL models in one place, but quite the opposite, is kind of filtering. All mentioned models/providers will be latest OR actually used ones, that deserve mentioning. Making it a quick reference for any future projects.
+- **To Mention** : [ArtificialAnalysis](https://artificialanalysis.ai), U can find more stats and comparison
 # TOC 
 - [**The Big Three**](#the-big-three)  
 	- [Claude](#claude)  
@@ -63,6 +63,6 @@
 
 ## [Groq](https://console.groq.com/docs/models#get-all-available-models)
 
-| Models variaty   | Free trial | Yes | Notes |
+| Models variety   | Free trial | Yes | Notes |
 | ---------------- | ---------- | --- | ----- |
 | Small Collection | Enough     | No  |       |
